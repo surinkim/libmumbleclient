@@ -219,7 +219,7 @@ static inline uint64_t SWAP64(register uint64_t __in) { register uint64_t __out;
 #define BLOCKSIZE 4
 #define SHIFTBITS 31
 typedef uint32_t subblock;
-#define SWAPPED(x) __builtin_bswap32(x)
+#define SWAPPED(x) htonl(x)
 #endif
 
 typedef subblock keyblock[BLOCKSIZE];

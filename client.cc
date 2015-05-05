@@ -1,6 +1,7 @@
 #include "client.h"
 
 #include <boost/make_shared.hpp>
+#include <boost/bind.hpp>
 #include <deque>
 #include <typeinfo>
 
