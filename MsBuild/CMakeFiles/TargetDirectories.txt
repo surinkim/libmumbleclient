@@ -1,5 +1,0 @@
-C:/dev/libmumbleclient/MsBuild/celt-build/CMakeFiles/celt0.dir
-C:/dev/libmumbleclient/MsBuild/CMakeFiles/main.dir
-C:/dev/libmumbleclient/MsBuild/CMakeFiles/ALL_BUILD.dir
-C:/dev/libmumbleclient/MsBuild/CMakeFiles/mumbleclient.dir
-C:/dev/libmumbleclient/MsBuild/CMakeFiles/ZERO_CHECK.dir
