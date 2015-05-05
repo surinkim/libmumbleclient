@@ -3,14 +3,3 @@
 *.suo
 *.ncb
 *.user
-*.vcproj
-*.pb.*
-Makefile
-main
-CMakeCache.txt
-*.dir/*
-CMakeFiles/*
-**/*.dir/
-**/Debug/*
-**/Release/*
-**/CMakeFiles/*
