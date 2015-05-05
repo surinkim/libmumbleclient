@@ -247,7 +247,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <CustomBuild Include="CMakeFiles\7985bcf183968dba50ae1e0caccc7c9b\Mumble.pb.cc.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Running C++ protocol buffer compiler on Mumble.proto</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\dev\protobuf-master\vsprojects\Release\protoc.exe --cpp_out C:/dev/libmumbleclient/MsBuild -I C:/dev/libmumbleclient C:/dev/libmumbleclient/Mumble.proto
+C:\dev\protobuf-master\vsprojects\Release\protoc.exe --cpp_out C:/dev/libmumbleclient -I C:/dev/libmumbleclient C:/dev/libmumbleclient/Mumble.proto
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,7 +259,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\libmumbleclient\MsBuild\Mumble.pb.cc;C:\dev\libmumbleclient\MsBuild\Mumble.pb.h</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Running C++ protocol buffer compiler on Mumble.proto</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\dev\protobuf-master\vsprojects\Release\protoc.exe --cpp_out C:/dev/libmumbleclient/MsBuild -I C:/dev/libmumbleclient C:/dev/libmumbleclient/Mumble.proto
+C:\dev\protobuf-master\vsprojects\Release\protoc.exe --cpp_out C:/dev/libmumbleclient -I C:/dev/libmumbleclient C:/dev/libmumbleclient/Mumble.proto
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,7 +271,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\libmumbleclient\MsBuild\Mumble.pb.cc;C:\dev\libmumbleclient\MsBuild\Mumble.pb.h</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Running C++ protocol buffer compiler on Mumble.proto</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\dev\protobuf-master\vsprojects\Release\protoc.exe --cpp_out C:/dev/libmumbleclient/MsBuild -I C:/dev/libmumbleclient C:/dev/libmumbleclient/Mumble.proto
+C:\dev\protobuf-master\vsprojects\Release\protoc.exe --cpp_out C:/dev/libmumbleclient -I C:/dev/libmumbleclient C:/dev/libmumbleclient/Mumble.proto
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -283,7 +283,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\libmumbleclient\MsBuild\Mumble.pb.cc;C:\dev\libmumbleclient\MsBuild\Mumble.pb.h</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Running C++ protocol buffer compiler on Mumble.proto</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\dev\protobuf-master\vsprojects\Release\protoc.exe --cpp_out C:/dev/libmumbleclient/MsBuild -I C:/dev/libmumbleclient C:/dev/libmumbleclient/Mumble.proto
+C:\dev\protobuf-master\vsprojects\Release\protoc.exe --cpp_out C:/dev/libmumbleclient -I C:/dev/libmumbleclient C:/dev/libmumbleclient/Mumble.proto
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,17 +302,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="..\CryptState.h" />
     <ClInclude Include="..\logging.h" />
     <ClInclude Include="..\messages.h" />
-    <ClInclude Include="..\Mumble.pb.h" />
     <ClInclude Include="..\settings.h" />
     <ClInclude Include="..\user.h" />
     <ClInclude Include="..\visibility.h" />
-    <ClInclude Include="Mumble.pb.h" />
     <ClCompile Include="..\client.cc" />
     <ClCompile Include="..\client_lib.cc" />
     <ClCompile Include="..\CryptState.cpp" />
     <ClCompile Include="..\logging.cpp" />
-    <ClCompile Include="..\Mumble.pb.cc" />
-    <ClCompile Include="Mumble.pb.cc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/dev/libmumbleclient/MsBuild/ZERO_CHECK.vcxproj">

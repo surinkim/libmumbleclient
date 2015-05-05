@@ -13,12 +13,6 @@
     <ClCompile Include="..\logging.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Mumble.pb.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Mumble.pb.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\channel.h">
@@ -46,12 +40,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\visibility.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Mumble.pb.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Mumble.pb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
