@@ -1,81 +1,60 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C++ Express 2010
+# Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{D7543811-D48F-4220-815E-8210D00F2758}"
 	ProjectSection(ProjectDependencies) = postProject
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0} = {A69FCD85-605E-4DD4-BC2E-D737516264A0}
 		{9953A1FC-8C4A-45F0-A7B9-9072765294E5} = {9953A1FC-8C4A-45F0-A7B9-9072765294E5}
 		{682A1120-9760-4976-B205-630E7940CDED} = {682A1120-9760-4976-B205-630E7940CDED}
 		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642} = {1174087B-A6A5-4B2E-B02F-C9F73CEBF642}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{A69FCD85-605E-4DD4-BC2E-D737516264A0}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "celt0", "celt-build\celt0.vcxproj", "{9953A1FC-8C4A-45F0-A7B9-9072765294E5}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0} = {A69FCD85-605E-4DD4-BC2E-D737516264A0}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "main", "main.vcxproj", "{682A1120-9760-4976-B205-630E7940CDED}"
 	ProjectSection(ProjectDependencies) = postProject
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0} = {A69FCD85-605E-4DD4-BC2E-D737516264A0}
 		{9953A1FC-8C4A-45F0-A7B9-9072765294E5} = {9953A1FC-8C4A-45F0-A7B9-9072765294E5}
 		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642} = {1174087B-A6A5-4B2E-B02F-C9F73CEBF642}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mumbleclient", "mumbleclient.vcxproj", "{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0} = {A69FCD85-605E-4DD4-BC2E-D737516264A0}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
-		Release|Win32 = Release|Win32
 		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
 		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D7543811-D48F-4220-815E-8210D00F2758}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D7543811-D48F-4220-815E-8210D00F2758}.Release|Win32.ActiveCfg = Release|Win32
 		{D7543811-D48F-4220-815E-8210D00F2758}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{D7543811-D48F-4220-815E-8210D00F2758}.Release|Win32.ActiveCfg = Release|Win32
 		{D7543811-D48F-4220-815E-8210D00F2758}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0}.Debug|Win32.ActiveCfg = Debug|Win32
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0}.Debug|Win32.Build.0 = Debug|Win32
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0}.Release|Win32.ActiveCfg = Release|Win32
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0}.Release|Win32.Build.0 = Release|Win32
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
-		{A69FCD85-605E-4DD4-BC2E-D737516264A0}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
 		{9953A1FC-8C4A-45F0-A7B9-9072765294E5}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9953A1FC-8C4A-45F0-A7B9-9072765294E5}.Debug|Win32.Build.0 = Debug|Win32
-		{9953A1FC-8C4A-45F0-A7B9-9072765294E5}.Release|Win32.ActiveCfg = Release|Win32
-		{9953A1FC-8C4A-45F0-A7B9-9072765294E5}.Release|Win32.Build.0 = Release|Win32
 		{9953A1FC-8C4A-45F0-A7B9-9072765294E5}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
 		{9953A1FC-8C4A-45F0-A7B9-9072765294E5}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{9953A1FC-8C4A-45F0-A7B9-9072765294E5}.Release|Win32.ActiveCfg = Release|Win32
+		{9953A1FC-8C4A-45F0-A7B9-9072765294E5}.Release|Win32.Build.0 = Release|Win32
 		{9953A1FC-8C4A-45F0-A7B9-9072765294E5}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
 		{9953A1FC-8C4A-45F0-A7B9-9072765294E5}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
 		{682A1120-9760-4976-B205-630E7940CDED}.Debug|Win32.ActiveCfg = Debug|Win32
 		{682A1120-9760-4976-B205-630E7940CDED}.Debug|Win32.Build.0 = Debug|Win32
-		{682A1120-9760-4976-B205-630E7940CDED}.Release|Win32.ActiveCfg = Release|Win32
-		{682A1120-9760-4976-B205-630E7940CDED}.Release|Win32.Build.0 = Release|Win32
 		{682A1120-9760-4976-B205-630E7940CDED}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
 		{682A1120-9760-4976-B205-630E7940CDED}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{682A1120-9760-4976-B205-630E7940CDED}.Release|Win32.ActiveCfg = Release|Win32
+		{682A1120-9760-4976-B205-630E7940CDED}.Release|Win32.Build.0 = Release|Win32
 		{682A1120-9760-4976-B205-630E7940CDED}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
 		{682A1120-9760-4976-B205-630E7940CDED}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
 		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}.Debug|Win32.ActiveCfg = Debug|Win32
 		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}.Debug|Win32.Build.0 = Debug|Win32
-		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}.Release|Win32.ActiveCfg = Release|Win32
-		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}.Release|Win32.Build.0 = Release|Win32
 		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
 		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}.Release|Win32.ActiveCfg = Release|Win32
+		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}.Release|Win32.Build.0 = Release|Win32
 		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
 		{1174087B-A6A5-4B2E-B02F-C9F73CEBF642}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

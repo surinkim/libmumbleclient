@@ -50,7 +50,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\CMakeLists.txt" />
     <CustomBuild Include="CMakeFiles\7985bcf183968dba50ae1e0caccc7c9b\Mumble.pb.cc.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
