@@ -296,12 +296,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Mumble.pb.cc" />
     <ClInclude Include="..\channel.h" />
     <ClInclude Include="..\client.h" />
     <ClInclude Include="..\client_lib.h" />
     <ClInclude Include="..\CryptState.h" />
     <ClInclude Include="..\logging.h" />
     <ClInclude Include="..\messages.h" />
+    <ClInclude Include="..\Mumble.pb.h" />
     <ClInclude Include="..\settings.h" />
     <ClInclude Include="..\user.h" />
     <ClInclude Include="..\visibility.h" />
