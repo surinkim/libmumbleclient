@@ -2,7 +2,9 @@ cmake_minimum_required (VERSION 2.6)
 project (libmumbleclient)
 set (libmumbleclient_VERSION_MAJOR 0)
 set (libmumbleclient_VERSION_MINOR 0)
-
+set(BOOST_ROOT C:/dev/Boost)
+set(OPENSSL_ROOT_DIR C:/dev/OpenSSL)
+set(PROTOBUF_INCLUDE_DIR C:/dev/protobuf-3.0.0-alpha-1/vsprojects/include)
 include(FindPkgConfig)
 
 if (WIN32)
